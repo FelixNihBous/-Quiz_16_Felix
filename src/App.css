@@ -9,8 +9,6 @@
 
 .comment-box {
   gap: 10px;
-  height: 100vh;
-  display: flex;
   justify-content: center;
   margin-top: 20px;
 }
@@ -18,7 +16,10 @@
 .commentarea {
   display: flex;
   box-shadow: 0 2px 4px lightgray;
-
+  height: 100vh;
+  gap: 20px;
+  height: 200px;
+  padding-top: 20px;
 }
 
 .text-area {
@@ -28,6 +29,8 @@
     height: 50px;
     border-bottom: 1px solid lightgray;
     resize: none;
+    box-shadow: 0 2px 4px lightgray;
+
     width: 500px;
   }
 }
