@@ -7,6 +7,7 @@ import HappinesImg from './Component/assets/happiness.png'
 import thumbsUpImg from './Component/assets/like.png'
 import replyImg from './Component/assets/reply.png'
 import Header from './Component/Header.jsx';
+import Followbar from './Component/Followbar.jsx'
 import './App.css'
 import Sidebar from './Component/Sidebar.jsx';
 
@@ -84,6 +85,7 @@ function Content() {
           </div>
 
         </div>
+        <Followbar />
       </div>
     </>
   )
